@@ -161,3 +161,4 @@ for frame_json_file in frame_json_files:
         # render and save
         rendering = render(cam_GS, GS_model, pipeline, background)["render"]
         torchvision.utils.save_image(rendering, os.path.join(frame_file_dir, all_frames_cam[frame_i].get('name')))
+        torch.cuda.empty_cache()
