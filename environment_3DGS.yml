@@ -16,4 +16,4 @@ dependencies:
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
     - opencv_python==4.9.0.80
-    - scipy===1.7.1
+    - scipy==1.7.1
